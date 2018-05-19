@@ -1,0 +1,293 @@
+/*  
+Theme Name: Blogimalistic
+Theme URI: http://lukem.net/2007/10/02/blogimalistic/
+Description: Kinda minimalistic greyish theme.
+Version: 1.0
+Author: Łukasz "Lukem" Wójcik
+Author URI: http://lukem.net/
+
+*/
+
+body {
+	background: #fff url(img/pattern.png) repeat-x top;
+	font: 62.5% Verdana, Arial, sans-serif;
+	margin:0px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #999;
+}
+
+body p {
+	text-align: justify;
+}
+
+acronym, abbr {
+	cursor: help;
+	border-bottom: none;
+}
+
+blockquote {
+	font-style: italic;
+	background: url(img/bq.png) no-repeat left top;
+	padding-left: 30px;
+	margin: 0px;
+}
+
+code, code p {
+	font-family: monospace;
+	background: #d0d0d0;
+}
+
+kbd {
+	background: #d0d0d0;
+	font: 1.2em monospace;
+}
+
+#main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-bottom: 0px;
+}
+
+h1 a {
+	border-bottom: none;
+	color: #999;
+	font-size: 2.4em;
+	font-variant: small-caps;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	width: auto;
+}
+
+#desc {
+	margin-left: 10px;
+	text-align: right;
+	margin-top: 18px;
+	margin-right: 20px;
+}
+
+#header {
+	width: 100%;
+}
+
+#header hr {
+	height: 1px;
+	color: #999;
+	background: #999;
+}
+
+#content {
+	float: left;
+	width:580px;
+	text-align: justify;
+	
+}
+
+#content h2 {
+	font-variant: small-caps;
+	color: #999;
+	font-size: 2.2em;
+	margin-bottom: 5px;
+}
+
+#content h2 a {
+	text-decoration: none;
+	color: #999;
+}
+
+#content h2 a:hover {
+	color: #333;
+}
+
+#content p a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: dashed 1px;
+}
+
+#content p a:hover {
+	color: #999;
+}	
+
+#posts {
+	padding-left: 15px;
+	padding-right: 20px;
+}
+
+
+#posts p {
+	font-size: 1.3em;
+	line-height: 17px;
+}
+
+#posts ul li, #posts ol li {
+	font-size: 1em;
+}
+
+#entry-body ul li, #entry-body ol li {
+	font-size: 1.3em;
+}
+
+#posts small a {
+	border-bottom: 1px dashed;
+}
+
+p.comments {
+	margin-bottom: 20px;
+}
+
+.single-comment {
+font-size: 0.4em;
+}
+
+#navigation {
+	display:inline;
+}
+
+#alignleft {
+	float: left;
+}
+
+#alignright {
+	float: right;
+}
+
+.textwidget {
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align:justify;
+	margin-bottom: 10px;
+}
+
+a.rsswidget {
+	color: #999;
+}
+
+.widget_rss ul li {
+	margin-right: 10px;
+}
+
+#sidebar {
+	background: #d0d0d0 url(img/bottom.png) repeat-x bottom;
+	float:right;
+	width: 210px;
+	padding-bottom: 48px;
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+
+#calendar_wrap a, .recentcomments a {
+	border-bottom: 1px dashed;
+}
+
+#sidebar h2, h2.widgettitle {
+	padding-bottom:10px;
+}
+
+#tag_cloud {
+	margin-bottom: 10px;
+}
+
+#calendar_wrap {
+	margin-left: 10px;
+}
+
+#tag_cloud, #textwidget {
+	padding-left: 20px;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+#searchbox {
+	background: #999;
+	list-style: none;
+	display: block;
+	height: 89px;
+	margin-bottom: 20px;	
+}
+
+#rss {
+	display: block;
+	height: 64px;
+	background: url(img/rss.png) no-repeat left;
+	padding-left: 100px;
+	margin-bottom: 20px;
+}
+
+#rss li {
+	font-size: 1.3em;
+	line-height: 30px;
+	text-transform: uppercase;
+	
+}
+
+#rss li a, #footer p a {
+	border-bottom: 1px dashed;
+}
+
+#rss li a:hover, #footer p a:hover {
+	color: #999;
+}
+
+#sidebar ul {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#sidebar ul li {
+	list-style: none;
+	margin-left: -25px;
+	padding-left: 0px;
+}
+
+#sidebar ul li h2 {
+	margin: 3px;
+	color: #999;
+	font-size: 1.7em;
+	font-variant: small-caps;
+}
+
+#sidebar ul li a {
+	line-height: 17px;
+}
+
+#sidebar ul li a:hover {
+	color: #999;
+}
+
+#sidebar ul li ul li a {
+	color: #000;
+}
+
+input#s {
+	margin-left: 26px;
+	margin-top:29px;
+	background: #f4f4f4;
+	border: 1px solid #b2b2b2;
+	color: #000;
+	font: 1.8em Verdana, Arial, sans-serif;
+	padding: 3px;
+	width: 160px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	background:url(img/footer.png) repeat-x bottom;
+	height:53px;
+}
+
+#footer p {
+	text-align: center;
+	padding-top: 30px;
+}

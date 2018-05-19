@@ -1,0 +1,6 @@
+/* Some minor fixes for IE 6 & 7 */
+
+h1 {
+font-size: 2em;
+margin-top: 13px;
+}
