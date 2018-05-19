@@ -1,4 +1,4 @@
-# blogimalistic
+# Blogimalistic
 
 ![Screenshot](https://raw.githubusercontent.com/lwojcik/blogimalistic/master/screenshot.png)
 
